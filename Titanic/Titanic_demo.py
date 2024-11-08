@@ -32,5 +32,5 @@ df_Survived=len(df["Survived"]=="1")
 
 total_pass=len(df.index)
 print(total_pass)
-perSurviced=((df_Survived)\(total_pass))*100
+perSurviced=(df_Survived/total_pass)*100
 print(perSurviced)
