@@ -32,7 +32,7 @@ curr=connection.cursor()
 #Read that customer that you just wrote to the database
 
 
-
+print("Exisitng value in DB:\n")
 curr.execute("SELECT * FROM Customer WHERE CustomerId=60")
 data=curr.fetchall()
 for row in data:
@@ -45,19 +45,20 @@ print(cols)
 
 
 customer_id=60
-new_email='rajiv.rr@ust1.com'
+new_email='rajiv.rr@ustGlobal.com'
 
 curr.execute(
     """ 
     UPDATE Customer
     SET Email = ?,Company = ?
     WHERE CustomerId = ?
-    """,(new_email,'USTInternational',customer_id)
+    """,(new_email,'USTGlobal',customer_id)
     )
 
 connection.commit()
 print("Customer updated")
 
+print("Updated value in DB:\n")
 curr.execute("SELECT * FROM Customer WHERE CustomerId=60")
 data=curr.fetchall()
 for row in data:
