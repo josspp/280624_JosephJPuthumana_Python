@@ -7,7 +7,7 @@ def CreateExcelWorkbook(filePath):
     workbook = excel.Workbooks.Add()
 
     sheet = workbook.Sheets(1)
-    sheet.Cells(1,1).Value = "Sangeeth's Sample Excel Workbook"
+    sheet.Cells(1,1).Value = "joseph's Sample Excel Workbook"
     sheet.Cells(2,1).Value = "This is a demo auto generated excel"
 
     workbook.SaveAs(filePath)
