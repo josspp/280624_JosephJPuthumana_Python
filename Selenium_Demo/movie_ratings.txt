@@ -1,0 +1,2 @@
+Movie: titanic, Rating: 7.9
+/10, Director: James Cameron
