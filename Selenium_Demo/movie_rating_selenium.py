@@ -44,10 +44,10 @@ def get_movie_info(movie_name):
         #WebDriverWait(driver, 10).until(
         #    EC.presence_of_element_located((By.CLASS_NAME, "TitleBlock__TitleLink-sc-1nlhx7j-0"))
         #)
-        time.sleep(10)
+        time.sleep(5)
         movie_name = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul/li[1]/div[2]")
         movie_name.click()
-        time.sleep(10)
+        time.sleep(3)
 
         # Extract the movie's rating
         try:
@@ -67,6 +67,7 @@ def get_movie_info(movie_name):
         print(f"Error occurred while fetching data for '{movie_name}': {e}")
         driver.quit()
         return None, None
+    
 
 # Movie ratings storage
 movie_data = []
@@ -115,6 +116,9 @@ def menu_program():
 
         else:
             print("Invalid choice, please try again.")
+    
+
+
 
 # Run the program
 if __name__ == "__main__":

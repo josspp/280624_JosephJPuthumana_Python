@@ -1,2 +1,2 @@
-Movie: titanic, Rating: 7.9
-/10, Director: James Cameron
+Movie: the tenant, Rating: 7.5
+/10, Director: Roman Polanski
