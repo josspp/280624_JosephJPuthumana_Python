@@ -2,6 +2,8 @@ import requests
 import time
 import streamlit as st
 
+st.title("Weather Demo")
+
 lat=st.text_input("Latidude:")
 long=st.text_input("Longitude:")
 
