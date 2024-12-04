@@ -1,0 +1,21 @@
+movie name: Titanic
+1997
+Leonardo DiCaprio, Kate Winslet
+movie rating: 7.9
+/10
+movie director: James Cameron
+***************
+movie name: The Tenant
+1976
+Roman Polanski, Isabelle Adjani
+movie rating: 7.5
+/10
+movie director: Roman Polanski
+***************
+movie name: The Covenant
+2023
+Jake Gyllenhaal, Dar Salim
+movie rating: 7.5
+/10
+movie director: Guy Ritchie
+***************
